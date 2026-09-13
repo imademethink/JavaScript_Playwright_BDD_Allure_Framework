@@ -41,7 +41,6 @@ It is suitable for:
 - Beginners learning Playwright
 - Beginners learning BDD
 - Beginners migrating from TypeScript Playwright to JavaScript Playwright
-- Beginners migrating from Python Playwright to JavaScript Playwright
 - Teams building UI automation frameworks
 - Enterprise UI automation projects
 
@@ -968,7 +967,6 @@ This framework can be used by:
 - QA Managers
 - Teams building BDD automation frameworks
 - Teams migrating from TypeScript Playwright to JavaScript Playwright
-- Teams migrating from Python Playwright to JavaScript Playwright
 
 ---
 
