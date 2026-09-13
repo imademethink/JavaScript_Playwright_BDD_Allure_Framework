@@ -721,16 +721,14 @@ allure open allure-report
 
 ```bash
 npm run test
-npm run allure:generate
-npm run allure:open
+allure generate path\to\allure-results -o allure-report --clean
+allure open allure-report
 ```
 
 For smoke testing:
 
 ```bash
 npm run test:smoke
-npm run allure:generate
-npm run allure:open
 ```
 
 ---
