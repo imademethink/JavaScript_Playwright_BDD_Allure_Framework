@@ -1049,15 +1049,15 @@ Just a clean and practical automation architecture that teams can understand, ma
 |---|---|
 | Install dependencies | `npm install` |
 | Install browsers | `npx playwright install` |
+| TypeScript validation | `npm run typecheck` |
 | Generate BDD tests | `npm run bddgen` |
 | Run all tests | `npm test` |
 | Run smoke tests | `npm run test:smoke` |
 | Run regression tests | `npm run test:regression` |
 | Run Chrome tests | `npm run test:chrome` |
 | Run headed tests | `npm run test:headed` |
-| Generate Allure report | `npm run allure:generate` |
-| Open Allure report | `npm run allure:open` |
-| Clean generated files | `npm run clean` |
+| Generate Allure report | `allure generate path\to\allure-results -o allure-report --clean` |
+| Open Allure report | `allure open allure-report` |
 
 ---
 
