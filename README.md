@@ -168,31 +168,25 @@ npx playwright install --with-deps
 
 # 🧪 Test Execution
 
-## Run All Tests
+## Run Specific Test with a specific tag
 
 ```bash
-npm test
+npm run test:smoke
 ```
 
-This command:
-
-1. Generates Playwright tests from the feature files.
-2. Executes the generated tests.
-3. Produces Allure results.
-
----
-
----
-
-# 📊 Typical Test and Reporting Flow
+## Run All Tests
 
 ```bash
 npm run test
 ```
 
+## Generate Allure (HTML) report
+
 ```bash
 allure generate path\to\allure-results -o allure-report --clean
 ```
+
+## Open Allure (HTML) report
 
 ```bash
 allure open allure-report
