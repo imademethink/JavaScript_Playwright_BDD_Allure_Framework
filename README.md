@@ -183,7 +183,7 @@ npm run test
 ## Generate Allure (HTML) report
 
 ```bash
-allure generate path\to\allure-results -o allure-report --clean
+allure generate allure-results -o allure-report --clean
 ```
 
 ## Open Allure (HTML) report
