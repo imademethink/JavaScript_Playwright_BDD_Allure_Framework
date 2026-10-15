@@ -2,6 +2,12 @@
 
 ### Beginner-Friendly JavaScript Playwright BDD Automation Framework
 
+<img width="1672" height="941" alt="JavaScript Playwright Automation Framework" src="https://github.com/user-attachments/assets/b569d4bd-492e-44da-9209-99b4f9fe4b24" />
+
+# YouTube Video Link
+
+# https://youtu.be/fZeTA90pg5I
+
 Build reliable, maintainable, and reusable UI automation using **JavaScript, Playwright, BDD, Gherkin, playwright-bdd, and Allure Reporting**.
 
 ⭐ If this project helps you, please consider giving it a Star!
