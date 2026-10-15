@@ -182,10 +182,20 @@ This command:
 
 ---
 
-## Run Smoke Tests
+---
+
+# 📊 Typical Test and Reporting Flow
 
 ```bash
-npm run test:smoke
+npm run test
+```
+
+```bash
+allure generate path\to\allure-results -o allure-report --clean
+```
+
+```bash
+allure open allure-report
 ```
 
 ---
@@ -661,23 +671,6 @@ npm run clean
                  │ Screenshot / Video   │
                  │       / Trace        │
                  └──────────────────────┘
-```
-
-
----
-
-# 📊 Typical Test and Reporting Flow
-
-```bash
-npm run test
-allure generate path\to\allure-results -o allure-report --clean
-allure open allure-report
-```
-
-For smoke testing:
-
-```bash
-npm run test:smoke
 ```
 
 ---
